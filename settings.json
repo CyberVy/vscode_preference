@@ -1,5 +1,8 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+        "gitDecoration.ignoredResourceForeground": "#888800",
+        "gitDecoration.modifiedResourceForeground": "#00bbff"
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -45,7 +48,8 @@
             {
                 "scope": [
                     "keyword.operator.logical",
-                    "keyword.operator.arithmetic"
+                    "keyword.operator.arithmetic",
+                    "variable.other.readwrite.alias"
                 ],
                 "settings": {
                     "foreground": "#A9B7C6",
@@ -93,5 +97,6 @@
             "parameter": "#EEC366",
             "variable.defaultLibrary": "#8C73A1"
         }
-    }
+    },
+    "workbench.colorTheme": "Visual Studio Dark"
 }
