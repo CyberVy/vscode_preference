@@ -1,6 +1,5 @@
 {
     "terminal.integrated.inheritEnv": false,
-    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "files.autoSave": "afterDelay",
     "workbench.editor.enablePreview": false,
@@ -123,7 +122,5 @@
             "variable.defaultLibrary": "#8C73A1"
         }
     },
-    "workbench.colorTheme": "Visual Studio Dark",
-    "chat.disableAIFeatures": true,
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "workbench.colorTheme": "Visual Studio Dark"
 }
