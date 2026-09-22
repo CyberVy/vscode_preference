@@ -3,12 +3,14 @@
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "files.autoSave": "afterDelay",
-    "workbench.editor.enablePreview": false,
-    "workbench.secondarySideBar.defaultVisibility": "visible",
     "terminal.integrated.initialHint": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.colorCustomizations": {
-        "editor.background": "#252525",
+        "[Visual Studio Dark]": {
+            "editor.background": "#252525",
+            "panel.background": "#252525",
+            "statusBar.background": "#252525"
+        },
         "gitDecoration.ignoredResourceForeground": "#888800",
         "gitDecoration.modifiedResourceForeground": "#00bbff",
         "tab.activeBorder": "#EE88AA"
@@ -126,9 +128,7 @@
             "variable.defaultLibrary": "#8C73A1"
         }
     },
-    "workbench.colorTheme": "Visual Studio Dark",
     "chat.disableAIFeatures": true,
-    "diffEditor.hideUnchangedRegions.enabled": true,
     "js/ts.updateImportsOnFileMove.enabled": "always",
     "rust-analyzer.checkOnSave": false,
     "json.schemaDownload.trustedDomains": {
@@ -141,5 +141,13 @@
         "https://schemastore.azurewebsites.net/": true,
         "https://www.schemastore.org/": true
     },
-    "update.mode": "manual"
+    "update.mode": "manual",
+    "js/ts.experimental.useTsgo": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "workbench.editor.enablePreview": false,
+    "editor.accessibilitySupport": "off",
+    "security.promptForLocalFileProtocolHandling": false,
+    "workbench.colorTheme": "Visual Studio Dark"
 }
