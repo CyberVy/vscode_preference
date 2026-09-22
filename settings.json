@@ -9,7 +9,8 @@
         "[Visual Studio Dark]": {
             "editor.background": "#252525",
             "panel.background": "#252525",
-            "statusBar.background": "#252525"
+            "statusBar.background": "#252525",
+            "statusBar.inactiveBackground": "#252525"
         },
         "gitDecoration.ignoredResourceForeground": "#888800",
         "gitDecoration.modifiedResourceForeground": "#00bbff",
